@@ -1,0 +1,96 @@
+2024-40-04 15:40:32->>>MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'asp_guardar_arbitro' cannot be found in database ''. Verify that user 'root'@'127.0.0.1' has enough privileges to execute.
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcDataAsync>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<AddNewAsync>d__6.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcedureAsync>d__4.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<GetParametersAsync>d__7.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<CheckParametersAsync>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en tablaArbitro.Datos.DatosArbitro.agregarArbitro(Arbitro _arbitro) en C:\Users\sabri\OneDrive\Documentos\LAB Y PROY\TEORIA DE PROYECTO\tablaArbitro\tablaArbitro\Datos\DatosArbitro.cs:línea 106
+2024-04-04 22:04:32->>>MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'asp_guardar_arbitro' cannot be found in database ''. Verify that user 'root'@'127.0.0.1' has enough privileges to execute.
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcDataAsync>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<AddNewAsync>d__6.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcedureAsync>d__4.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<GetParametersAsync>d__7.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<CheckParametersAsync>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en tablaArbitro.Datos.DatosArbitro.agregarArbitro(Arbitro _arbitro) en C:\Users\sabri\OneDrive\Documentos\LAB Y PROY\TEORIA DE PROYECTO\tablaArbitro\tablaArbitro\Datos\DatosArbitro.cs:línea 106
+2024-32-04 22:32:22->>>MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'asp_guardar_arbitro' cannot be found in database ''. Verify that user 'root'@'127.0.0.1' has enough privileges to execute.
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcDataAsync>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<AddNewAsync>d__6.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.ProcedureCache.<GetProcedureAsync>d__4.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<GetParametersAsync>d__7.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.<CheckParametersAsync>d__12.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en tablaArbitro.Datos.DatosArbitro.agregarArbitro(Arbitro _arbitro) en C:\Users\sabri\OneDrive\Documentos\LAB Y PROY\TEORIA DE PROYECTO\tablaArbitro\tablaArbitro\Datos\DatosArbitro.cs:línea 105
